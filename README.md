@@ -1,2 +1,2 @@
 # Compressible-Fluid-Dynamics
-Ham-Burgers
+Ham-Burgers group
