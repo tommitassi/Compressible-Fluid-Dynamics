@@ -13,7 +13,6 @@ function [ x, u ] = leftBoundary( x_in, u_in, ub, type, c )
 %   u_in    [2 x n]         Initial conditions u_in(:,i)=[v;w]
 %   ub      [1 x 1]         Boundary condition
 %   type    string          Type of boundary condition: 'v' or 'w'
-%   n       [1 x 1]         Number of initial condition points
 %   c       [1 x 1]         Velocity of propagation
 
 % OUTPUT
