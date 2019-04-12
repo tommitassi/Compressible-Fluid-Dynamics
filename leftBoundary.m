@@ -22,8 +22,8 @@ function [ x, u ] = leftBoundary( x_in, u_in, ub, type, c )
 
 n = size(x_in, 2); % number of initial condition points
 
-xb = x_in(1,1); % x coordinate of the left boundary (is it right to put 
-% the bc in the first point of the intial condition points?)
+xb = x_in(1,1); % x coordinate of the left boundary (QUESTION: is it right  
+% to put the bc in the first point of the intial condition points?)
 
 x = zeros(2,n*(n-1)/2);
 u = zeros(2,n*(n-1)/2);
