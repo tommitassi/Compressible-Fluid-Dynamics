@@ -4,7 +4,7 @@
 
 function [ x, u ] = upperMesh( x_l, u_l, x_r, u_r, c )
 
-% upperMesh
+% upperMesh creates the mesh from the intersection of the characteristics curves of the boundaries
 
 % INPUT
 %   x_l     [2 x nn]        Coordinates of the left boundary mesh points x(:,i)=[x;t]
